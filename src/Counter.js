@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+// import Button from './Button';
 import './Counter.css';
 
 class Counter extends Component {
@@ -63,6 +64,18 @@ class Counter extends Component {
       </div>
     );
   }
+
+  // Exemple of creating Button stateless component
+
+  // render() {
+  //   return (
+  //     <div className="countComponent">
+  //       <Button action={this.handleCountDown}>Count Down</Button>
+  //       <h2>{this.state.count}</h2>
+  //       <Button action={this.handleCountUp}>Count Up</Button>
+  //     </div>
+  //   );
+  // }
 }
 
 export default Counter;
