@@ -1,0 +1,12 @@
+.footer {
+  margin-top: 12px;
+  font-size: 14px;
+  font-weight: 200;
+  border-top: 1px solid #e3e3e3;
+  padding: 10px 0;
+}
+
+.footer a {
+  font-size: 14px;
+  font-weight: 200;
+}

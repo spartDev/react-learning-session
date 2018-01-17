@@ -1,0 +1,9 @@
+.header__title {
+  font-family: Didot,"Didot LT STD","Hoefler Text",Garamond,"Times New Roman",serif;
+}
+
+.header__SubTitle {
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 0;
+}

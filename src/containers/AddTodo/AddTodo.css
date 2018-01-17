@@ -1,0 +1,8 @@
+.addTodo__form {
+  display: flex;
+}
+
+.addTodo__input {
+  padding: 10px 5px;
+  flex: 1;
+}
