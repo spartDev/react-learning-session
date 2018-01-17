@@ -10,13 +10,10 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title">Welcome to React and Redux</h1>
         </header>
         {/* Here our counter component */}
         <Counter />
-
-        {/* We can set our component width props (initial data) */}
-        {/* <Counter SetcountNumberTo={4}/> */}
       </div>
     );
   }
