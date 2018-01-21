@@ -1,23 +1,14 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-import { addTodo } from '../../actions';
-
 import './AddTodo.css';
 
 class AddTodo extends Component {
 
-    handleSubmit = event => {
-      const { dispatch } = this.props;
-      event.preventDefault();
-      dispatch(addTodo(this.input.value));
-      this.input.value = '';
-    }
-
     render() {
       return (
         <div className="addTodo">
-          <form className="addTodo__form" onSubmit={this.handleSubmit}>
+          <form className="addTodo__form" onSubmit={(e) => e.preventDefault()}>
             <input
               type="text"
               className="addTodo__input"
@@ -31,4 +22,4 @@ class AddTodo extends Component {
       );
     }
 }
-export default connect()(AddTodo);
+export default AddTodo;
