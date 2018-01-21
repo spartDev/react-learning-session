@@ -1,4 +1,5 @@
 import React from 'react';
+// import propTypes from 'prop-types';
 import './Button.css';
 
 const Button = (props) => {
@@ -15,5 +16,14 @@ const Button = (props) => {
 //     <button className="button" onClick={action}>{children}</button>
 //   );
 // };
+
+// Button.propTypes = {
+//   children: PropTypes.string,
+//   action: PropTypes.func,
+// };
+//
+// Button.defaultProps = {
+//   children: 'toto',
+// } ;
 
 export default Button;
