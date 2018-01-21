@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 
-import { Header } from '../components';
+import { Header, Footer } from '../components';
 import TodoList from './TodoList';
 import AddTodo from './AddTodo';
-import Footer from './Footer';
 
 import './App.css';
 
